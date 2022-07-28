@@ -1,0 +1,46 @@
+.containers {
+  background-color: #f7f7f2;
+  display: flex;
+  padding: 24px;
+  border-radius: 20px;
+  color: #474448;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 80vh;
+  align-content: space-around;
+}
+.item_container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item_text {
+  display: grid;
+  gap: 24px;
+}
+
+.title {
+  text-align: center;
+}
+
+.description {
+  text-align: justify;
+  line-height: 1.2;
+  padding: 0 24px;
+}
+
+.icon_programmer {
+  width: 300px;
+}
+
+button {
+  margin: 12px;
+  background-color: #ffa000;
+  border-radius: 150px;
+  height: 35px;
+  border: none;
+  color: #474448;
+}
